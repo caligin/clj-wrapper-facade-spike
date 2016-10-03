@@ -2,4 +2,5 @@
   :description "a spike"
   :license {:name "BSD3"
             :url "https://opensource.org/licenses/BSD-3-Clause"}
-  :dependencies [[org.clojure/clojure "1.6.0"]])
+  :dependencies [[org.clojure/clojure "1.6.0"]]
+  :profiles {:dev {:dependencies [[midje "1.8.3"]]}})

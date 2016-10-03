@@ -3,7 +3,7 @@
 (defn connect
   "connects to something"
   [host options credentials]
-  (println x "connecting to something"))
+  (println "connecting to something"))
 
 (defn makeCredentials
     "makes a credentials object, because yes"
